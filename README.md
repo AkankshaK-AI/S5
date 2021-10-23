@@ -1,5 +1,5 @@
 # S5Assignment
-**Step 1:**
+**Step 1:** Basic Skeleton
 
 Target- to reach 99.4% accuracy within 10 epochs
 
@@ -20,7 +20,7 @@ Extremely heavy model with large number of parameters
 Overfitting
 
 
-**Step 2:**
+**Step 2:** Adding the Convolution blocks
 
 Target: 
 Get the basic skeleton right. 
@@ -38,7 +38,7 @@ Model is still large with lesser than target accuracy.
 We see Overfitting. 
 
 
-**Step 3**
+**Step 3** Reducing the no. of parameters
 
 Target: 
 Make the model lighter
