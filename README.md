@@ -30,8 +30,8 @@ We want the overfitting number to be very small
 
 Results:
 Parameters: 194,884
-Best Training Accuracy: 99.21
-Best Test Accuracy: 98.77
+Best Training Accuracy: 99.29
+Best Test Accuracy: 98.89
 
 Analysis: 
 Model is still large with lesser than target accuracy. 
