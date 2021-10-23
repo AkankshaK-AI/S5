@@ -54,3 +54,20 @@ Best Test Accuracy: 98.92(14th epoch)
 Analysis: 
 Model is small with less than targeted accuracy
 We see overfitting in the 15th epoch. In the 10th, 11th, 13th and 14th epoch, we have witnessed underfitting of of the model
+
+
+**Step 4** Adding Batch Normalization
+
+Target: 
+Increase the no. of parameters slightly
+Reach the model accuracy at 99.4%
+We want the overfitting number to be very small
+
+Results:
+Parameters: 10,970
+Best Training Accuracy: 99.75
+Best Test Accuracy: 99.23
+
+Analysis: 
+Accuracy has improved a lot with batch normalization. We could reach the target of 99.4 on training within epoch 7
+We see overfitting in the model.
