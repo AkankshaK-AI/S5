@@ -71,3 +71,20 @@ Best Test Accuracy: 99.23
 Analysis: 
 Accuracy has improved a lot with batch normalization. We could reach the target of 99.4 on training within epoch 7
 We see overfitting in the model.
+
+
+**Step 5** Adding Regularization- Dropout
+
+Target: 
+Decrease the gap between train and test
+Reach the model accuracy at 99.4%
+
+
+Results:
+Parameters: 10,970. Dropout doesnt add parameters hence same as before.
+Best Training Accuracy: 99.24 (epoch 15th)
+Best Test Accuracy: 99.13 (epoch 11th)
+
+Analysis: 
+
+
