@@ -24,14 +24,15 @@ Overfitting
 
 Target: 
 Get the basic skeleton right. 
-Reduce the parameters to reach the target of 20k within 10 epochs
-Reach the model accuracy at 99.4% without regularization
+Reduce the parameters to reach the target of 20k parameters within 15 epochs
+Reach the model accuracy at 99.4%
+We want the overfitting number to be very small
 
 Results:
 Parameters: 194,884
-Best Training Accuracy: 98.88
-Best Test Accuracy: 98.72
+Best Training Accuracy: 99.21
+Best Test Accuracy: 98.77
 
 Analysis: 
 Model is still large with lesser than target accuracy. 
-Very slight overfitting. Train and Test accuracy is pretty close in the 10th epoch (tr=98.88, test=98.72)
+We see Overfitting. 
