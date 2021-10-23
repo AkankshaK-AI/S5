@@ -28,4 +28,4 @@ Results:
 Parameters: 194,884
 Best Training Accuracy: 98.88
 Best Test Accuracy: 98.72
-Analysis: Model is still large with lesser than target accuracy. Slight overfitting exists.
+Analysis: Model is still large with lesser than target accuracy. train and test accuracy is pretty close in the 10th epoch (tr=98.95, test=98.97)
