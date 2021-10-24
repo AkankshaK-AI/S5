@@ -120,3 +120,21 @@ Analysis:
 Accuracy has improved but still less than target.
 Still overfitting
 We need to add dropout to every layer and not just a specific layer as we dont know which layer is causing over-fitting.
+
+
+**Step 8** Correcting Max Pooling location, adding dropout to every layer, decreasing dropout value to 0.1
+
+Target: 
+To make corrections in the model to reduce overfitting.
+To add dropout to every layer
+
+
+Results:
+Parameters: 13,808
+Best Training Accuracy: 99.13 (epoch 13th)
+Best Test Accuracy: 99.40 (epoch 13th) & 99.41(epoch 15th)
+
+Analysis: 
+We hit out test target twice. 
+Model is now underfitting
+
