@@ -86,5 +86,5 @@ Best Training Accuracy: 99.24 (epoch 15th)
 Best Test Accuracy: 99.13 (epoch 11th)
 
 Analysis: 
-
+Lower than target accuracy. Big sized kernel is used. Slight overfitting still exists
 
