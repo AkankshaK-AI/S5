@@ -142,8 +142,7 @@ Model is now underfitting
 **Step 9** Adding image augmentation
 
 Target: 
-To reduce overfitting.
-To rotate the image 
+To rotate the image to better match train and test
 
 
 Results:
@@ -153,4 +152,4 @@ Best Test Accuracy: 99.44(epoch 15th)
 
 Analysis: 
 We hit the test target in the last epoch 
-Model is still underfitting
+Model is still underfitting. This could be due to image rotation happening in train and not in test
