@@ -153,3 +153,19 @@ Best Test Accuracy: 99.44(epoch 15th)
 Analysis: 
 We hit the test target in the last epoch 
 Model is still underfitting. This could be due to image rotation happening in train and not in test
+
+
+**Step 10** Changing the LR. Dropping by 0.1 after every 6 epochs
+
+Target: 
+to play around with LR to improve accuracy
+
+
+Results:
+Parameters: 13,808 (LR doesnt add parameters)
+Best Training Accuracy: 98.88 (epoch 15th)
+Best Test Accuracy: 99.36(epoch 15th)
+
+Analysis: 
+Accuracy is still lesser than target
+Model is still underfitting. This could still be due to image rotation happening in train and not in test
