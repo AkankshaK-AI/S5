@@ -138,3 +138,19 @@ Analysis:
 We hit our test target twice. 
 Model is now underfitting
 
+
+**Step 9** Adding image augmentation
+
+Target: 
+To reduce overfitting.
+To rotate the image 
+
+
+Results:
+Parameters: 13,808 (image rotation doesnt add parameters)
+Best Training Accuracy: 98.92 (epoch 15th)
+Best Test Accuracy: 99.44(epoch 15th)
+
+Analysis: 
+We hit the test target in the last epoch 
+Model is still underfitting
