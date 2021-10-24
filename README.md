@@ -103,3 +103,20 @@ Best Test Accuracy: 98.07 (epoch 13th)
 
 Analysis: 
 Model's accuracy is impacted due to reduced number of parameters hence we need to add back few parameters.
+
+
+**Step 7** Increasing the capacity- no. of parameters
+
+Target: 
+Increase the no. of parameters to improve model accuracy to reach 99.4%
+
+
+Results:
+Parameters: 11,994.
+Best Training Accuracy: 99.24 (epoch 15th)
+Best Test Accuracy: 99.08 (epoch 11th)
+
+Analysis: 
+Accuracy has improved but still less than target.
+Still overfitting
+We need to add dropout to every layer and not just a specific layer as we dont know which layer is causing over-fitting.
