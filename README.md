@@ -88,3 +88,18 @@ Best Test Accuracy: 99.13 (epoch 11th)
 Analysis: 
 Lower than target accuracy. Big sized kernel is used. Slight overfitting still exists
 
+
+**Step 6** Adding Average pooling
+
+Target: 
+Get rid of the big kernel(7*7) because of large weights and replace with GAP layer.
+Reach the model accuracy at 99.4%
+
+
+Results:
+Parameters: 6,070. Reduced drastically.
+Best Training Accuracy: 98.59 (epoch 15th)
+Best Test Accuracy: 98.07 (epoch 13th)
+
+Analysis: 
+Model's accuracy is impacted due to reduced number of parameters hence we need to add back few parameters.
