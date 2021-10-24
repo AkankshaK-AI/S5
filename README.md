@@ -135,6 +135,6 @@ Best Training Accuracy: 99.13 (epoch 13th)
 Best Test Accuracy: 99.40 (epoch 13th) & 99.41(epoch 15th)
 
 Analysis: 
-We hit out test target twice. 
+We hit our test target twice. 
 Model is now underfitting
 
