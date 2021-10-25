@@ -167,5 +167,5 @@ Best Training Accuracy: 98.88 (epoch 15th)
 Best Test Accuracy: 99.36(epoch 15th)
 
 Analysis: 
-Accuracy is still lesser than target
+Accuracy is still lesser than target.
 Model is still underfitting. This could still be due to image rotation happening in train and not in test
